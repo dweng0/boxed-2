@@ -2,12 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   solid-js: ^1.7.0
+  solid-styled-components: ^0.28.5
   typescript: ^5.0.3
   vite: ^4.2.1
   vite-plugin-solid: ^2.6.1
 
 dependencies:
   solid-js: 1.7.0
+  solid-styled-components: 0.28.5_solid-js@1.7.0
 
 devDependencies:
   typescript: 5.0.3
@@ -770,6 +772,14 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /goober/2.1.12_csstype@3.1.1:
+    resolution: {integrity: sha512-yXHAvO08FU1JgTXX6Zn6sYCUFfB/OJSX8HHjDSgerZHZmFKAb08cykp5LBw5QnmyMcZyPRMqkdyHUSSzge788Q==}
+    peerDependencies:
+      csstype: ^3.0.10
+    dependencies:
+      csstype: 3.1.1
+    dev: false
+
   /has-flag/3.0.0:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
@@ -899,6 +909,16 @@ packages:
       '@babel/types': 7.21.4
       solid-js: 1.7.0
     dev: true
+
+  /solid-styled-components/0.28.5_solid-js@1.7.0:
+    resolution: {integrity: sha512-vwTcdp76wZNnESIzB6rRZ3U55NgcSAQXCiiRIiEFhxTFqT0bEh/warNT1qaRZu4OkAzrBkViOngF35ktI8sc4A==}
+    peerDependencies:
+      solid-js: ^1.4.4
+    dependencies:
+      csstype: 3.1.1
+      goober: 2.1.12_csstype@3.1.1
+      solid-js: 1.7.0
+    dev: false
 
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
