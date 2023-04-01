@@ -1,0 +1,20 @@
+{
+  "name": "boxed-2",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "author": "Jay",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1",
+    "vite-plugin-solid": "^2.6.1"
+  },
+  "dependencies": {
+    "solid-js": "^1.7.0"
+  }
+}
